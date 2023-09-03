@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Tao Tao Douven
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Startniveau: Rode piste
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  In eerste instantie ga ik mij focussen op responsive, en als het mij lukt wil ik ook nog focussen op de surface plane.  
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.debijenkorf.nl 
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Cosmetica voor dames  
-  <img src="images/cosmetica.jpg" width="375px" alt="cosmetica pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Home pagina
-  <img src="images/home.jpg" width="375px" alt="home pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
