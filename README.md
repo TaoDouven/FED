@@ -57,10 +57,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
   WCAG Checklist: 
-  
+  <img src="images/WCAGcheck1.jpeg" width="400px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck2.jpeg" width="400px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck3.jpeg" width="400px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck4.jpeg" width="400px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck5.jpeg" width="400px" alt="omschrijving van de pagina">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  De bijenkorf heeft weinig aandacht besteed aan de screen reader. 
+  Ook is het lastig om tekst die op plaatjes staan te kunnen lezen voor mensen die slecht kunnen zien. 
+  Ze maken goed gebruik van headings en ul en li. De contrast van de kleuren die ze op dit moment gebruiken zijn goed. 
+  Er zou een betere alternative text kunnen komen om items nog duidelijker te omschrijven.
 
 </details>
 
