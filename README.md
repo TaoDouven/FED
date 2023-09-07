@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Tao Tao Douven
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Statniveau: Rode piste
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Ik focus mij eerst op responsive, en als het lukt ook op surface plane.
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,17 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.debijenkorf.nl
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Cosmetica voor dames
-  
-  <img src="images/cosmetica.jpeg" width="400px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Home pagina
-  
-  <img src="images/home.jpeg" width="400px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,19 +54,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-  WCAG Checklist: 
-  <img src="images/WCAGcheck1.jpeg" width="400px" alt="omschrijving van de pagina">
-  <img src="images/WCAGcheck2.jpeg" width="400px" alt="omschrijving van de pagina">
-  <img src="images/WCAGcheck3.jpeg" width="400px" alt="omschrijving van de pagina">
-  <img src="images/WCAGcheck4.jpeg" width="400px" alt="omschrijving van de pagina">
-  <img src="images/WCAGcheck5.jpeg" width="400px" alt="omschrijving van de pagina">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  De bijenkorf heeft weinig aandacht besteed aan de screen reader. 
-  Ook is het lastig om tekst die op plaatjes staan te kunnen lezen voor mensen die slecht kunnen zien. 
-  Ze maken goed gebruik van headings en ul en li. De contrast van de kleuren die ze op dit moment gebruiken zijn goed. 
-  Er zou een betere alternative text kunnen komen om items nog duidelijker te omschrijven.
 
 </details>
 
