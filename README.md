@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Tao Tao Douven
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Startniveau: rode piste.
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Ik leg mijn focus eerst op responsive en als het mij lukt ook op surface plane.
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.debijenkorf.nl/?page=webpage&text_name=magazine%20video
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Cosmetica dames  
-  <img src="images/cosmetica.jpeg" width="400px" alt="Cosmetica voor dames">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Detail pagina  
-  <img src="images/detail.jpeg" width="400px" alt="Detail pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -54,18 +54,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-  <img src="images/WCAGcheck1.jpeg" width="400px" alt="WCAG check pagina 1">
-  <img src="images/WCAGcheck2.jpeg" width="400px" alt="WCAG check pagina 2">
-  <img src="images/WCAGcheck3.jpeg" width="400px" alt="WCAG check pagina 3">
-  <img src="images/WCAGcheck4.jpeg" width="400px" alt="WCAG check pagina 4">
-  <img src="images/WCAGcheck5.jpeg" width="400px" alt="WCAG check pagina 5">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  De bijenkorf houd niet heel veel rekening met de screen reader, omdat de screen reader niet alles opleest wat er daad werkelijk op de website te zien is. 
-  Ze maken veel gebruik van tekst op foto, maar hierdoor kunnen mensen die niet goed kunnen zien de tekst slecht lezen. 
-  Je kunt niet gebruik maken van nacht/dag modus (de website blijft wit). Het contrast van de tekst kleur is goed. Ze kunnen de button tag meer gebruiken. 
-  Ze zouden de alternative tekst iets uitgebreider kunnen maken, zodat je als je de screen reader gebruikt je een beter idee krijgt van hoe een item er o.a uit ziet. 
 
 </details>
 
