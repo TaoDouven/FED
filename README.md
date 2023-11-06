@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Tao Tao Douven
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw en als ik tijd heb rood.
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive. 
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.debijenkorf.nl/damesmode 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Pagina van overzicht cosmetica dames  
+  <img src="images/cosmetica.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Pagina van detail op een cosmetica product  
+  <img src="readme-images/detail.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -57,6 +57,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  Content:
+  - Er zitten veel fouten in mijn html code.
+
+  Keyboard:
+  - Alles no, omdat ik nog niet met keyboard accesability bezig ben geweest.
+
+  Mobile touch:
+  - Nog niet rekening gehouden met horizontal scrolling.
+  - Plaatsing van links nog niet goed.
+
+  Headings:
+  - Alles goed.
+
+  List:
+  - Alles goed.
+
+  Images:
+  - Nog niet rekening gehouden met attribute values.
+
+  Media:
+  - Nog niet van toepassing.
+
+  Controlls:
+  - Links zijn nog niet reconisable als links.
+  - Controls hebben geen :focused state.
+  - Heb geen skip links.
+
+  Appearence:
+  - Ik heb geen light/dark mode.
+  - High contrast mode is niet gesuport.
+  - Text kan je niet tot 200% doen.
+
+  Animatie:
+  - Nog niet van toepassing.
+
+  Color contrast:
+  - Bij sommige foto's is er sprake van text overlapping. 
 
 </details>
 
@@ -156,6 +194,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+Content:
+  - Er zitten geen fouten meer in mijn html code.
+
+  Keyboard:
+  - Alles is nogsteeds no, omdat ik nog niet met keyboard accesability bezig ben geweest.
+
+  Mobile touch:
+  - Nu ook nog niet rekening gehouden met horizontal scrolling.
+  - Plaatsing van links nogsteeds niet goed.
+
+  Headings:
+  - Alles goed.
+
+  List:
+  - Alles goed.
+
+  Images:
+  - Hier ook weer nog niet rekening gehouden met attribute values.
+
+  Media:
+  - Niet van toepassing.
+
+  Controlls:
+  - Links zijn nog niet reconisable als links.
+  - Controls hebben geen :focused state.
+  - Heb geen skip links.
+
+  Appearence:
+  - Ik heb geen light/dark mode.
+  - High contrast mode is niet gesuport.
+  - Text kan je niet tot 200% doen.
+
+  Animatie:
+  - Nog niet van toepassing.
+
+  Color contrast:
+  - Bij sommige foto's is er sprake van text overlapping.
+    
 </details>
 
 
