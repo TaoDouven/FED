@@ -336,7 +336,7 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. https://dlo.mijnhva.nl/d2l/le/content/437009/viewContent/1483500/View
   2. bron 2
   3. ...
 
