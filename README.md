@@ -286,15 +286,16 @@ Content:
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik vond dat ik de footer wel goed heb gemaakt en dat dat mij best goed af ging. Ik heb hier heel erg geleerd hoe je grid moet gebruiken en gebruik grid nu best vaak voor positioneren.
+  <img src="images/screenshot6.jpeg" width="375px" alt="uitomst opdracht 1">
+  
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De filter buttons accesabel te maken. Je kunt door de buttons heen door te scrollen, maar dat is niet accesable voor iedereen en weet ook niet hoe ik dat kan doen. 
+  Dit is overegens wel hoe het bij de bijenkorf website ook is gedaan. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="images/screenshot5.jpeg" width="375px" alt="uitomst opdracht 1">
 </details>
 
 
