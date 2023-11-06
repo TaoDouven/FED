@@ -345,5 +345,15 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
   7. https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
   8. https://www.youtube.com/watch?v=3yfswsnD2sw.
   9. https://www.youtube.com/watch?v=VQraviuwbzU.
+  10. https://www.youtube.com/watch?v=qr0ujkLLgmE.
+  11. https://accessibleweb.com/color-contrast-checker/.
+  12. https://www.youtube.com/watch?v=_yCgeXFAXTM.
+  13. https://www.youtube.com/watch?v=8QKOaTYvYUA&t=2028s
+  14. https://stackoverflow.com/questions/65330346/is-there-a-css-selector-i-can-use-to-show-an-element-once-a-checkbox-is-selected.
+  15.  https://css-tricks.com/almanac/properties/c/clip-path/.
+  16.  https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector.
+  17.  https://webdesign.tutsplus.com/keyboard-accessibility-tips-using-html-and-css--cms-31966a. https://www.youtube.com/watch?v=38JDscMbB4I. 
+
+
 
 </details>
