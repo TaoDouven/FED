@@ -1,75 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 	
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Bijenkorf website</title>
-	
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Martel:wght@300&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@300&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
-<body class="menu open">
+<body class="cosmeticapagina">
 
+	<a href="#main" class="header-navigatie">Skip de header navigatie en ga naar main</a>
 	<header>
 
 		<nav>
 
 			<ul>
-				<li><p>Winkels & openingstijden</p></li>
-				<li><p>Nu besteld, donderdag 14 september in huis</p></li>
-				<li><p>Klantenservice</p></li>
+				<li><a href="">Winkels & openingstijden</a></li>
+				<li><a href="">Nu besteld, donderdag 14 september in huis</a></li>
+				<li><a href="">Klantenservice</a></li>
 			</ul>
 
 			<ul>
-				<li><a href="">Dames</a></li>
-				<li><img src="images/logobijenkorf.jpeg" alt="logo bijenkorf"></li>
-				<li><a href="">Zoekbalk</a></li>
-				<li><img src="images/account.jpeg" alt="account"></li>
-				<li><img src="images/favorietenleeg.jpeg" alt="favorieten is leeg"></li>
-				<li><img src="images/winkelmandjeleeg.jpeg" alt="winkelmandje is leeg"></li>
+				<li><a href="">dames</a></li>
+				<li><img src="images/hamburgermenu.png" alt="hamburger menu"></li>
+				<li><img src="images/logobijenkorf.png" alt="logo bijenkorf"></li>
+				<li>
+					<input role="searchbox" type="search">
+					<span></span>
+				</li>
+				<li><img src="images/account.png" alt="account"></li>
+				<li><img src="images/favorieten.png" alt="favorieten is leeg"></li>
+				<li><img src="images/winkelmandjeleeg.png" alt="winkelmandje is leeg"></li>
 			</ul>
-
+			
 		</nav>
+
 	</header>
 
-  <main>
+  <main id="main" tabindex="-1">
 
 		<h1>Cosmetica voor dames</h1>
 
 		<section>
+			<button aria-expanded="false">Adventskalenders</button>
+			<button aria-expanded="false">Beautytools</button>
+			<button aria-expanded="false">Cadeausets</button>
+			<button aria-expanded="false">Geuren</button>
+			<button aria-expanded="false">Filter en sorteer</button>
+		</section>
+
+		<section id="content" tabindex="-1">
 
 		<ul>
 
 			<li>
-        <img src="images/charlottilburryairbrush.jpeg" alt="Charlotte Tilbury airbrush">
-				<h2>Charlot Tilbury</h2>
+        <img src="images/charlottetilburyairbrush.png" alt="Charlotte Tilbury airbrush">
+				<a href="">Charlot Tilbury</a>
 				<p>Airbrush Flawless Setting Spray - make-up setting- & fixing spray</p>
 				<p>35,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -78,11 +71,11 @@
 			</li>
 
 			<li>
-				<img src="images/diorlipoil.jpeg" alt="Dior lip oil">
-				<h2>Dior</h2>
+				<img src="images/diorlipoil.png" alt="Dior lip oil">
+				<a href="diorlipoil.html">Dior</a>
 				<p>Addict Lip Glow Oil - voedende lipolie</p>
 				<p>45,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -91,11 +84,11 @@
 			</li>
 
 			<li>
-				<img src="images/chanelnagelaklevernis.jpeg" alt="Chanel nagelak lever nis">
-				<h2>Chanel</h2>
+				<img src="images/chanelnagelaklevernis.png" alt="Chanel nagelak lever nis">
+				<a href="">Chanel</a>
 				<p>Le vernis langhoudende nagelak Le vernis</p>
 				<p>28,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -104,11 +97,11 @@
 			</li>
 
 			<li>
-				<img src="images/dysonairwrap.jpeg" alt="Dyson airwrap">
-				<h2>Dyson</h2>
+				<img src="images/dysonairwrap.png" alt="Dyson airwrap">
+				<a href="">Dyson</a>
 				<p>AirWrap Long complete multistyler - blauw / blush</p>
 				<p>549,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -117,11 +110,11 @@
 			</li>
 
 			<li>
-				<img src="images/macsmalleyeshadow.jpeg" alt="Mac small eyeshadow">
-				<h2>Mac</h2>
+				<img src="images/macsmalleyeshadow.png" alt="Mac small eyeshadow">
+				<a href="">Mac</a>
 				<p>Small Eye Shadow - losse oogschaduw</p>
 				<p>25,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -130,11 +123,11 @@
 			</li>
 
 			<li>
-				<img src="images/maisonfranciskurkdjian.jpeg" alt="Maison Francis Kurkdjian">
-				<h2>Maison Francis Kurkdjian</h2>
+				<img src="images/maisonfranciskurkdjian.png" alt="Maison Francis Kurkdjian">
+				<a href="">Maison Francis Kurkdjian</a>
 				<p>Baccarat Rouge 540 Eau de Parfum</p>
 				<p>Vanaf 150,-</p>
-				<button></button>
+				<button aria-expanded="false"></button>
 				<ul>
 					<li></li>
 					<li></li>
@@ -142,83 +135,527 @@
 				</ul>
 			</li>
 
+			<li>
+				<img src="images/gucciflora.png" alt="Gucci Flora Gorgeous Magnolia Eau de Parfum">
+				<a href="">Gucci</a>
+				<p>Flora Gorgeous Magnolia Eau de Parfum</p>
+				<p>Vanaf 81,-</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+
+			<li>
+				<img src="images/charlottetilburydisneybeauty.png" alt="Disney Beauty Light Wand - Limited Edition vloeibare highlighter">
+				<a href="">Charlotte Tilbury</a>
+				<p>Disney Beauty Light Wand - Limited Edition vloeibare highlighter</p>
+				<p>38,-</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+
+			<li>
+				<img src="images/charlottetilburyholleywoodglow.png" alt="Hollywood Glow Glide Face Architect Highlighter">
+				<a href="">Charlotte Tilbury</a>
+				<p>Hollywood Glow Glide Face Architect Highlighter</p>
+				<p>35,20</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+
+			<li>
+				<img src="images/diorrougeblush.png" alt="Rouge Blush - Langhoudende Blush">
+				<a href="">Dior</a>
+				<p>Rouge Blush - Langhoudende Blush</p>
+				<p>55,-</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+
+			<li>
+				<img src="images/maisonbaccaratrouge.png" alt="Baccarat Rouge 540 Extrait de Parfum">
+				<a href="">Maison Francis Kurkdjian</a>
+				<p>Baccarat Rouge 540 Extrait de Parfum</p>
+				<p>Vanaf 210,-</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+
+			<li>
+				<img src="images/charlottetilburyglowgasm.png" alt="Glowgasm Beauty Light Wand - liquid highlighter">
+				<a href="">Charlotte Tilbury</a>
+				<p>Glowgasm Beauty Light Wand - liquid highlighter</p>
+				<p>38,-</p>
+				<button aria-expanded="false"></button>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+			
 		</ul>
 		</section>
 
-		<section>
+		<a href="#content" class="main-navigatie">Skip de main navigatie en ga naar content in de main</a>
+		<nav>
+			
+			<section>
+
 			<ul>
+
 				<li>
-					<h2>Categorieën</h2>
+					<h2 title="Hier zie je de categorieën">Categorieën</h2>
+					 <a href="">Dames</a>
 				</li>
 	
 				<li>
-					<h2>Cosmetica</h2>
+					<h2 title="Hier zie je alle verschillende soorten cosmetica">Cosmetica</h2>
+					<ul>
+					<li><a href="">Adventskalenders</a></li>
+					<li><a href="">Beautytools</a></li>
+					<li><a href="">Cadeausets</a></li>
+					<li><a href="">Geuren</a></li>
+					<li><a href="">Gezondheid</a></li>
+					<li><a href="">Make-up</a></li>
+					<li><a href="">Reisverpakkingen</a></li>
+					<li><a href="">Verzorging</a></li>
+					</ul>
 				</li>
 	
 				<li>
-					<h2>Merken</h2>
-				</li>
+					<form><label><input type="checkbox" title="merken filteren" id="checkbox1">Merken<span></span></label>
+          <ul>
+						<li><input type="checkbox"><p>Acqua de Parma</p></li>
+						<li><input type="checkbox"><p>AERIN</p></li>
+						<li><input type="checkbox"><p>Aesop</p></li>
+						<li><input type="checkbox"><p>Agent Provocateur</p></li>
+						<li><input type="checkbox"><p>Amouage</p></li>
+						<li><input type="checkbox"><p>Anastasia Beverly Hills</p></li>
+						<li><input type="checkbox"><p>Aquanova</p></li>
+						<li><input type="checkbox"><p>Ariana Grande</p></li>
+					</ul>
+			</form>
+		</li>
 	
 				<li>
-					<h2>Bestseller</h2>
-				</li>
+				  <form><label><input type="checkbox" title="Bestseller filteren">Bestseller<span></span></label>
+					<ul>
+						<li><input type="checkbox"><p>Trending</p></li>
+						<li><input type="checkbox"><p>Bestseller</p></li>
+					</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Mini's</h2>
-				</li>
+				 <form><label><input type="checkbox" title="Mini's filteren">Mini's<span></span></label>
+					<ul>
+						<li><input type="checkbox"><p>Travelsize</p></li>
+					</ul>
+		  </form>
+		</li>
+
+				<li>
+			    <form><label><input type="checkbox" title="Mini's filteren">Nieuwe collectie<span></span></label>
+					<ul>
+						<li><input type="checkbox"><p>Net binnen</p></li>
+					</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Nieuwe collectie</h2>
-				</li>
+					<form><label><input type="checkbox" title="Weer op voorad filteren">Weer op vooraad<span></span></label>
+						<ul>
+							<li><input type="checkbox"><p>Weer op vooraad</p></li>
+						</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Weer op vooraad</h2>
-				</li>
+					<form><label><input type="checkbox" title="Outlet filteren">Verpakking<span></span></label>
+						<ul>
+							<li><input type="checkbox"><p>Aanbiedingen</p></li>
+						</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Outlet</h2>
-				</li>
+					<form><label><input type="checkbox" title="Verpakking filteren">Outlet<span></span></label>
+						<ul>
+							<li><input type="checkbox"><p>Fles</p></li>
+							<li><input type="checkbox"><p>Pipet</p></li>
+							<li><input type="checkbox"><p>Pomp</p></li>
+							<li><input type="checkbox"><p>Pot</p></li>
+							<li><input type="checkbox"><p>Roll-on</p></li>
+							<li><input type="checkbox"><p>Spray</p></li>
+							<li><input type="checkbox"><p>Stick</p></li>
+							<li><input type="checkbox"><p>Tube</p></li>
+						</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Verpakking</h2>
-				</li>
+				  <form><label><input type="checkbox" title="Prijs filteren">Prijs<span></span></label>
+						<ul>
+							<li><input type="checkbox"><p>0-20</p></li>
+							<li><input type="checkbox"><p>0-40</p></li>
+							<li><input type="checkbox"><p>0-60</p></li>
+							<li><input type="checkbox"><p>0-80</p></li>
+							<li><input type="checkbox"><p>0-100</p></li>
+							<li><input type="checkbox"><p>0-120</p></li>
+							<li><input type="checkbox"><p>0-140</p></li>
+							<li><input type="checkbox"><p>0-160</p></li>
+						</ul>
+		  </form>
+		</li>
 	
 				<li>
-					<h2>Prijs</h2>
-				</li>
-	
-				<li>
-					<h2>Prijs</h2>
-				</li>
-			</ul>
+					<form><label><input type="checkbox" title="Toom meer filters. Klik hier om op prijs te filteren">Toon meer filters<span></span></label>
+		  </form>
+		</li>
+
+		</ul>
+
 		</section>
+		</nav>
 
-	</section>
-
+		
+	
 	</main>
 
 	<footer>
+
+		<section>
+
+			<section>
+				<img src="images/cosmeticaweekend.png" alt="de bijenkorf cosmeticaweekend">
+
+				<h1>De Bijenkorf Cosmeticaweekend</h1>
+
+				<p>Ontdek de online beauty masterclasses en shop de mooiste cosmeticaproducten met een cadeau</p>
+
+				<button aria-expanded="false">Lees meer</button>
+			</section>
+
+			<h2>Cosmetica bij de bijenkorf</h2>
+
+			<p>De cosmeticacollectie voor dames biedt make-up producten voor iedere huid. Met de primers, foundations en concealers creëer je een egale teint: de perfecte basis voor iedere make-up look. Zet je wimpers extra aan met mascara en leef je helemaal uit met ons uitgebreide aanbod aan oogschaduwpaletten. Wanneer je op zoek bent naar een lippenstift zit je bij de Bijenkorf ook helemaal goed. Kies bijvoorbeeld voor de iconische Pillow Talk kleur van Charlotte Tilbury of ga voor een hydraterende lippenstift van M∙A∙C. Vergeet niet om je make-up look af te maken met een accent op de jukbeenderen. Breng een warme gloed aan met de Orgasm blush van NARS of creëer diepte met een highlighter.</p>
+
+			<h3>De meeste verleidelijke geuren van Chanel, Dior en Lancôme</h3>
+
+			<p>De parfumcollectie voor dames van de Bijenkorf bestaat uit iconische geuren als Coco Mademoiselle en No5 van CHANEL. Ook Idôle van Lancôme, Oud Wood van Tom Ford en Joy van DIOR maken onderdeel uit van de collectie. Ons assortiment aan geuren kan je opdelen in eau de toilette, eau de parfum en parfum. Een eau de toilette heeft heerlijk frisse, fruitige en bloemige noten. Deze geur vervliegt helaas wel snel, dus zorg dat je altijd een flesje eau de toilette in je tas hebt zitten. Wil jij een intensere geurbeleving? Kies dan voor een eau de parfum of een parfum. Deze geuren zijn kruidiger en zwaarder en blijf je nog 24 uur lang ruiken.</p>
+
+			<h3>Voed je huid met onze verzorgingsproducten</h3>
+
+			<p>Je huid is je grootste orgaan en speelt een belangrijke rol in het handhaven van je gezondheid. Het is dus erg belangrijk om je huid optimaal te beschermen, voeden en hydrateren. Het assortiment aan verzorgingsproducten voor dames van de Bijenkorf biedt volop keuze. Beleef een heerlijk ontspannende badervaring met badschuim, douchegels en bodylotions van topmerken als Rituals en Kiehl's. Het 3 stappenplan van Clinique kan niet ontbreken bij jouw gezichtsverzorgingsritueel. Zorg ook voor een goede dagcrème om huidveroudering tegen te gaan. Bij Laura Mercier vind je een tinted moisturizer met een zonnefactor. Zo bescherm én voed jij je huid en creëer je ook nog eens een egale look.</p>
+
+		</section>
+
+		<section>
+
+			<ul>
+
+				<li><a href="">Gratis bezorging vanaf 40,- voor members</a></li>
+				<li><a href="">Nu besteld, maandag in huis</a></li>
+				<li><a href="">Gratis retourneren, bedenktijd van 30 dagen</a></li>
+
+			</ul>
+
+			<section>
+
+					<ul>
+
+						<li><h2>Regel het zelf</h2></li>
+						<li><a href="">Volg je bestelling</a></li>
+						<li><a href="">Retourneer een artikel</a></li>
+
+					</ul>
+
+					<ul>
+
+						<li><h2>Veelgestelde vragen</h2></li>
+						<li><a href="">Bekijk veelgestelde vragen</a></li>
+						<li><a href="">Check het saldo van je Cadeaucard</a></li>
+
+					</ul>
+
+					<ul>
+
+						<li><h2>Heb je hulp nodig?</h2></li>
+						<li><a href="">Neem contact op met onze klantenservice</a></li>
+						<li><a href="">Elke dag bereikbaar via chat en social tussen 08:00 - 22:00, 
+							Maandag tot en met Zaterdag telefonisch bereikbaar tussen 09:00 - 18:00</a></li>
+
+					</ul>
+
+			</section>
+
+		</section>
+
+	<section>
+
 		<ul>
-			<li><img src="" alt=""></li>
-			<li><img src="" alt=""></li>
-			<li><img src="" alt=""></li>
-			<li><img src="" alt=""></li>
-			<li><img src="" alt=""></li>
+			<li><img src="images/idealfooter.png" alt="Ideal"></li>
+			<li><img src="images/mastercardfooter.png" alt="Mastercard"></li>
+			<li><img src="images/visafooter.png" alt="Visa"></li>
+			<li><img src="images/paypalfooter.png" alt="Pay Pal"></li>
+			<li><img src="images/americanexpressfooter.png" alt="American Express"></li>
+			<li><img src="images/postnlfooter.png" alt="Post nl"></li>
+			<li><img src="images/dhlfooter.png" alt="DHL"></li>
 		</ul>
+
+		<section>
+
+			<ul>
+
+				<li><h3>Klantenservice</h3></li>
+				<li><a href="">Klantenservice</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Betalen</a></li>
+				<li><a href="">Bezorgen</a></li>
+				<li><a href="">Status bestelling</a></li>
+				<li><a href="">Retourneren</a></li>
+				<li><a href="">Garantie en reparatie</a></li>
+				<li><a href="">de Bijenkorf Cadeaucard</a></li>
+				<li><a href="">Voorraad en reserveren</a></li>
+				<li><a href="">Terugroepacties</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><h3>Winkels</h3></li>
+				<li><a href="">Amstelveen</a></li>
+				<li><a href="">Amsterdam</a></li>
+				<li><a href="">Den Haag</a></li>
+				<li><a href="">Eindhoven</a></li>
+				<li><a href="">Maastricht</a></li>
+				<li><a href="">Rotterdam</a></li>
+				<li><a href="">Utrecht</a></li>
+				<li><a href="">Huisregels winkels</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><h3>Ontdek</h3></li>
+				<li><a href="">Inspiratie</a></li>
+				<li><a href="">Merken</a></li>
+				<li><a href="">Outlet</a></li>
+				<li><a href="">Acties</a></li>
+				<li><a href="">Damesmode</a></li>
+				<li><a href="">Herenmode</a></li>
+				<li><a href="">Kinderen</a></li>
+				<li><a href="">Wonen</a></li>
+				<li><a href="">Designer</a></li>
+				<li><a href="">Cosmetica</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><h3>de Bijenkorf</h3></li>
+				<li><a href="">Over de Bijenkorf</a></li>
+				<li><a href="">Werken bij de Bijenkorf</a></li>
+				<li><a href="">Duurzaamheid</a></li>
+				<li><a href="">de Bijenkorf Membership</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Evenementen</a></li>
+				<li><a href="">de Bijenkorf App</a></li>
+				<li><a href="">deBijenkorf.be</a></li>
+
+			</ul>
+
+		</section>
+
+			<ul>
+
+				<li><img src="images/twitterfooter.png" alt="twitter account de bijenkorf"></li>
+				<li><img src="images/pinterestfooter.png" alt="pinterest account de bijenkorf"></li>
+				<li><img src="images/ytfooter.png" alt="youtube account de bijenkorf"></li>
+				<li><img src="images/facebookfooter.png" alt="facebook account de bijenkorf"></li>
+				<li><img src="images/instagramfooter.png" alt="instagram account de bijenkorf"></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="">Cookie informatie & instellingen</a></li>
+				<li><a href="">Privacybeleid</a></li>
+				<li><a href="">Disclaimer</a></li>
+				<li><a href="">Algemene voorwaarden</a></li>
+
+			</ul>
+
+	
+
+	</section>
+
 	</footer>
 
 
-	<script defer src="scripts/script.js"></script>
+	<script defer src="script.js"></script>
 
 </body>
 	
 </html>
 
 
-<!--Ik ben in week 1 begonnen met eerst de navigatie balk te maken. Toen heb ik flexbox gebruikt om de list itemns naast elkaar en ruimte 
+<!--
+	
+	week 2:
+	
+	Ik ben in week 1 begonnen met eerst de navigatie balk te maken. Toen heb ik flexbox gebruikt om de list itemns naast elkaar en ruimte 
 tussen elkaar te plaatsen. Dat lukte eerst niet omdat ik niet de juiste parents en childrens heb aangesproken. Nadat ik dat wel 
 had gedaan is het gelukt. Het lukt mij niet om het midden stuk met alle cosmetica itemns naast elkaar in rijen te plaatsen. Ik probeerde 
 met flex de itemns goed naast en onder elkaar te krijgen, maar het lukte alleen om de binnen de itemns zelf de foto en de tekst goed onder 
 elkaar te plaatsen. 
 
-Ik ga nu aan de slag met grid. Ik doe display grid op de body en maak 2 columns (voor in de main bij de filter optie en de cosmetica itmens) en maak 3 rows (voor de header, de filter + cosmetica itemns en de navigatie).  -->
+Ik ga nu aan de slag met grid. Ik doe display grid op de body en maak 2 columns (voor in de main bij de filter optie en de cosmetica itmens) en maak 3 rows (voor de header, de filter + cosmetica itemns en de navigatie).  
+
+Soms werkte sommige styles die ik in de css heb aangegeven niet, maar dat kwam omdat ik de verkeerde css selector had gebruikt of 
+het verkeerde element had geselecteerd. Door itemns achtergrond kleur te geven kon ik zien hoeveel ruimte het in beslag nam en waar hij stond. 
+
+Door een schema te tekenen met hoe ik de grid binnen elk onderdeel wil hebben, kon ik heel makkelijk en georganiseerd itemns op de 
+juiste manier plaatsen binnen grids. 
+
+Ook heb ik boven elk stukje css commands gezet met waarvoor de code bedoeld is om overzicht te geven. En heb ik met commands 
+aangegeven binnen de css welke styling voor de body, header, main en footer bedoeld zijn. Dit hielp mij om code sneller terug te vinden. 
+
+De rows in de grid namen waaren allemaal te hoog. ik had margin: 0; en padding:0; gebruikt maar dat werkte niet. Na het opzoeken op het internet kwam ik erachter dat je hight: fit-content; kunt gebruiken om ervoor te zorgen dat de hoogte de ruimte van de content inneemt. Nu was de header goed, maar body neemt teveel ruimte in. Door de parents een specifieke height te geven is het gelukt. 
+
+De eerste pagina heeft een goed structuur en ga nu door naar begin maken van tweede pagina.
+
+De pagina van de index.html werkte niet meer. Ik denk dat ik komt omdat ik de footer en header allebei de klassen heb gegeven en een van de twee pagina's de verkeerde class naam heb gebruikt. En uiteindelijk in de inspector kwamen de stijlen van de footer en header niet bij de inspector. die twee klasses bij het stijlen weg gehaalt en alles werkt. Nu staat de footer bij index.html staat niet goed, maar footer diorlipoil.html wel.
+
+height op footer main header weg halen, kijken wat het probleem is. 
+
+Ik ga in week 3 begin nu bezig met media queries om elk verschillend grote scherm anders te stijlen. Daarna ga ik nog een nav, karosel, maken die je navigeert door de pagina heen waar je je op het moment plaats vind, met behulp van een form en input checkbox. 
+
+In de footer staat van de tekst rijen de tweede rij niet netjes onder elkaar. Waarschijnlijk wordt hij gestyled door andere code en hierdoor heb ik hem een display:block; gegeven zodat hij wel goed staat.  
+
+Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons" de pijltjes als je hem in en uit klikt hetzelfde. Ik ga dat veranderen door dat als je de lijst uit klikt het pijltje naar boven wijst zodat het duidelijk word dat je hem weer terug kan klappen. Met deze video heb ik de button met een image gestijlt: https://dlo.mijnhva.nl/d2l/le/content/437009/viewContent/1483500/View 
+
+
+Ik ga nu tijdens de laatste week van de eerste les werken aan media queries. Ik begin met telefoon groote. Ik heb ook alle grootes van de media queries van px veranderd naar em. Het lukt me nog niet goed om de navigatie goed te stylen dus ik ga ze achtergrond kleuren geven om voor duidelijkheid te zorgen. 
+
+Ik ben ook ondertussen nog bezig met de plaatsing van de elementen bij de tweede pagina en merk dat de elementen heel veel ruimte innemen en dat komt omdat ze automatisch de ruimte nemen die ze hebben https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/#:~:text=Block%20elements%20include%20any%20element,%3E%20%2C%20and%20so%20many%20more.
+
+
+Herkansing: Ik heb het niet gehaald om het vak gelijk te halen dus moet ik hem herkansen. Ik begin eerst met het valideren van mijn html en css. 
+IK ben er achter gekomen dat ik een hoop fouten heb in mijn html code dus heb alle fouten eruit gehaald. Door de verandering in de html code,
+klopt sommige css code niet en heb ik deze ook aangepast waar nodig. 
+
+Beginnen met iphone groote media querie maken. gebruik dezer website om afmetingen te zien: https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/
+De media querie werkt niet en heb deze video gekeken 
+https://www.google.com/search?q=media+queries+not+working&client=safari&sca_esv=576523393&rls=en&biw=1470&bih=840&tbm=vid&ei=wjM5ZbHdMpvr7_UP3-2WgAk&oq=media+queries+not+wor&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIhVtZWRpYSBxdWVyaWVzIG5vdCB3b3IqAggAMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSMcQUABYsglwAHgAkAEAmAFMoAGbBKoBATi4AQHIAQD4AQGIBgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:a28c8451,vid:acqN6atXVAE,st:0. 
+Heb de code onder aan gezet en deed nogsteeds niet. Ik had er geen media type en heb dat nu wel gedaan. Ook gebruikte ik max-width en dan moet 
+de volgorde van grootste naar kleinste scherm staan in de css code. Hierdoor werkte de media queries wel. 
+
+In de navigatie word de link dames vervangen door een hamburger menu. Met psuedoclass ::before voeg ik via content een afbeelding toe. 
+Plus met visebility. Bij de kleinere schermen zijn er buttons om te filteren ipv een tweede navigatie. Je kan niet met ::after een button toevoegen 
+met css aan de html dus heb ik extra buttons aan de html gegeven en die bij de schermen waar ze niet nodig zijn niet zichtbaar gemaakt 
+met display:none. 
+
+Ik wil ook een zoekicoontje achter de search bar plaatsen (dmv ::after )maar dat lukt nog niet helemaal. Dat komt omdat dat niet mogelijk 
+o.a door input field geen container is https://www.geeksforgeeks.org/how-to-use-before-or-after-pseudo-element-to-an-input-field-in-css/#:~:text=Note%3A%20We%20cannot%20use%20%3A%3A,style%20to%20each%20of%20them.
+https://dev.to/erhannah/adding-pseudoelements-on-input-elements-5bdk ik voeg een span toe aan de li waar de input zit als oplossing. 
+Dit werkt. Deze li geef ik display:flex en align itemns center zodat de input en span naast elkaar komen te staan. Voor flex uitleg:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/. 
+
+De buttons voor filteren in de kleine schermen kun je horizontaal scrollen en heb deze video gebruikt voor uitleg over hoe dat moet: 
+https://www.youtube.com/watch?v=3yfswsnD2sw. 
+
+Week voor inleveren herkansing: 
+Ik kwam ook deze video tegen van over responsive lay-out https://www.youtube.com/watch?v=VQraviuwbzU. Hier word uitgelegd hoe je zo handig 
+mogelijk een responsive lay-out kunt coderen met allerlei tips. Ik merkte zelf al dat ik te veel code aan het herhalen was met media 
+queries en het niet de juiste manier was. Ik ga nu met deze tips zo min mogelijk code te herhalen. Ook geen fixed sizes gebruiken. 
+
+Ook kwam ik er achter dat de grid op de body niet werkte. Nu staat er wel een grid op de body die bestaat uit drie rows: header, main en footer.
+Doordat er een grid op de body zit staat de navigatie balk in de header niet goed en moet ik uitzoeken hoe ik dit kan oplossen. 
+Alleen de header staat nu verkeerd, de andere elementen staan hetzelfde. Ik heb uiteindelijk geen grid op de body gezet omdat dat eigenlijk 
+niet echt nodig is en het niet goed werkt voor de header. 
+
+Omdat ik nu mobile first codeer dacht ik dat het handig was om de link van dames te vervangen voor een hamburger menu afbeelding, 
+omdat dat word gebruikt bij mobile first. Ik wilde dan een ::before aan de afbeelding toevoegen met een link van dames en de 
+afbeelding zelf dan hidden maken, maar je kunt geen link toevoegen. Ik kan dan of houden wat ik voorheen had (een link in de html
+en ::before waarbij een hamburger menu word toegevoegd), of in de html een afbeelding en een link en dan bij mobile de afbeelding 
+zichtbaar maken en bij grotere schermen de link zichtbaar maken. Ookal is het volgensmij makkelijker om voor de eerste optie te gaan,
+is het denk ik meer semantisch correct om voor de tweede optie te gaan. 
+
+Ik wilde meer leren over web accesability en heb daarom deze video bekeken https://www.youtube.com/watch?v=qr0ujkLLgmE. Het gaat hier 
+over visual disibility, motor disibility, cognitif disibility, animation, ARIA roles en light/dark mode. Door de video weet ik een stuk 
+beter hoe ik mijn website meer accesable kan maken. 
+
+Om hier een begin aan te maken, start ik met te werken aan color contrast. Ik gebruik deze color contrast checker
+https://accessibleweb.com/color-contrast-checker/. Ik heb de navigatie en de footer zwart gemaakt met witte tekst en de buttons donker rood 
+met witte tekst. Verder heb ik alle tekst op witte achtergrond zwart gemaakt ipv grijs. 
+
+Ook is het het best om geen tekst op je afbeeldingen te hebben voor accesability. Bij een aantal afbeeldingen die ik van de orginele bijenkorf 
+website heb, bevatten tekst. Ik heb met Adobe photoshop de tekst eruit geshopt en die foto's vervangen voor de foto's met tekst. 
+Tevens zijn de betaal icoontjes in de footer screenshots van de orginele website en bevatten een beige achtergrond. Het contrast tussen 
+die beige achtergrond en de icoontjes is te laag, en hierdoor heb ik het beige er zorgvuldig uit geshopt en uiteraard weer de nieuwe foto's
+vervangen voor de oude. Alle foto's waren jpeg's en geen png dus die heb ik omgezet naar png's. 
+
+Nu ga ik een light en dark modus maken voor de website. Dit doe ik met hulp van deze video https://www.youtube.com/watch?v=_yCgeXFAXTM. 
+De dark modus heb ik gemaakt met een media queries en was makkelijk om te maken. 
+
+Onder mijn footer zit er heel veel wit ruimte en ik denk dat dat komt door de margin:0; voor * in de css, want als ik die uitzet dan is die 
+ruimte onder de footer weg. 
+
+Ik ga nu de tweede navigatiebalk verder stylen om te filteren. Met hulp van de docent en later deze video https://www.youtube.com/watch?v=8QKOaTYvYUA&t=2028s ga ik de filter balk maken. Ik had hem al wel eerder gemaakt, maar heb hem nog niet gestyled met css.
+Ik wil dat deze code werkt: 
+
+.cosmeticapagina main nav ul li:nth-child(3) form label input[type="checkbox"]:checked ~ ul{
+	display: block;
+} 
+
+want zo kan ik de lijst laten zien wanneer je op de checkbox clicked, maar het werkt niet en ik weet niet waarom. Deze code: 
+.cosmeticapagina main nav ul li:nth-child(3) form label input[type="checkbox"]:checked  werkt wel dus het komt denk ik doordat ik de 
+lijst niet goed selecteer. Deze website heeft me geholpen te begrijpen waarom het selecteren niet lukte 
+https://stackoverflow.com/questions/65330346/is-there-a-css-selector-i-can-use-to-show-an-element-once-a-checkbox-is-selected. 
+Ik heb om het probleem op te lossen de ul (lijst) binnen de label te plaatsen waar de input ook is en met general sibling selector 
+de ul geselecteerd. De ul was nog geen general sibling van de input en nu wel. Ik heb deze website gebruikt om meer te weten te komen over 
+clip path: https://css-tricks.com/almanac/properties/c/clip-path/. 
+
+Ik heb de code van de index.html door de validator gehaald en er zijn veel errors uit gekomen, die ga ik er allemaal uithalen. Een daarvan is dat een h2 geen child element van een label. Dus de h2 moet ik eruit halen maar daardoor heb je niet meer dat als je op de h2 klikt dat de list open klapt. In de label schrijf ik daarom de titel van de filter optie ipv een h2. Nu kan ik niet meer de h2:after gebruiken om de afbeelding van het pijltje achter de titel van de filter te krijgen. Hiervoor ga ik nu een span gebruiken. Nu heb ik ook niet het probleem dat ik heel veel css moet schrijven voor de h2:after = 	 /*karosel h2 pijltje toevoegen*/
+.cosmeticapagina main nav ul li:nth-child(3) h2:after, li:nth-child(4) h2:after, li:nth-child(5) h2:after, li:nth-child(6) h2:after, li:nth-child(7) h2:after, li:nth-child(8) h2:after, li:nth-child(9) h2:after, li:nth-child(10) h2:after, li:nth-child(11) h2:after{
+  content: "";
+	position: relative;
+	right: 0;
+  background-image: url(../images/pijltjenaarbeneden.png);
+	width: 2em;
+	height: 1em;
+	background-size: 1em;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+Nu kan ik deze code gebruiken: 
+
+js gebruiken: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector. 
+
+Ik ga aria's toevoegen aan mijn html. Ik heb aria's aan buttons, input en meer toegevoegd. Ook als er op een link focus is heb ik die zwart gekleurd zodat het contrast goed is. https://webdesign.tutsplus.com/keyboard-accessibility-tips-using-html-and-css--cms-31966a. https://www.youtube.com/watch?v=38JDscMbB4I. 
+
+Omdat ik rekening wilde houden met dark modus had ik de kleuren van de website veranderd, maar bij nadere inzien ga ik dit toch weer wat meer terug brengen naar minder heftigere kleuren die wel nog genoeg contrast hebben. De website zal er dan hopelijk iets estetischer en minder druk uitzien dan voorheen. 
+
+
+

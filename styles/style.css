@@ -4,7 +4,9 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
-}
+	margin: 0;
+	max-width: 100%;
+} 
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -16,150 +18,1455 @@
 	--list-style-none: none;
 	--font-title:'Petrona';
 	--font-product-title: 'Petrona';
+	--font-h3: 'Petrona';
 	--font-small-text: 'Roboto', sans-serif;
 }
 
-body{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 1fr 2fr 1fr;
-}
 
-header ul{
-	/*display: flex;
-	align-items: center;
-	justify-content: center;*/
-	gap: 5em;
-}
+/****************/
+/* HEADER EN FOOTER stylen */
+/****************/
 
+
+
+
+/****************/
+/*HEADER section stylen*/
+/****************/
+
+
+/*grid display op header en indeling ervan*/
 header{
-	display: grid; 
 	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/*styling navigatiebalk 1*/
+header nav{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr;
+}
+
+/*styling navigatiebalk 2*/
+header nav ul:nth-child(2){
+  grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	place-items: center;
+}
+
+/* voor de 2e navigaie balk onder de 1e */
+header nav ul+ul{
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr 1fr;
+	place-content: center;
+	padding: 1em;
+	display: grid;
+	border-bottom: none;
+	font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-items: center;
+  align-items: center;
+	background-color: #ffffff;
+}
+
+/* voor de 2e navigaie balk onder de 1e li's korter maken*/
+header nav ul + ul li{
+	max-height: 4em;
+}
+
+/*header a wit kleuren*/
+header nav a{
+	color: #ffffff;
+}
+
+/*tekst 1 navigatie 1 styling*/
+header nav:first-child > li:first-child{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	/*background-color: blue;*/
+}
+
+/*tekst 2 navigatie 1 styling*/
+header nav:first-child > li:nth-child(2){
+	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
-	grid-row-end: 4;
+	/*background-color: violet;*/
 }
 
-header li{
-	display: flex;
-	align-content: center;
-	gap: 10em;
-	background-color: yellow;
+/*tekst 3 navigatie 1 styling*/
+header nav:first-child > li:nth-child(3){
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	/*background-color: lightblue;*/
 }
 
-nav > ul{
-	background-color: rgb(255, 249, 241);
+/*dames titel in navigatiebalk 2*/
+header nav ul:nth-child(2) li:first-child(1) a {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	/*background-color: greenyellow;*/
+}
+
+/* hamburgermenu in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(2) img{
+	width: 2em;
+	margin: 1em;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	/*background-color: deeppink;*/
+}
+
+/* bijenkorf logo in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(3) img{
+	width: 11em;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+}
+
+/*zoekbalk in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(4) a{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+}
+
+/*account in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(5) img{
+	width: 3em;
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 1;
+}
+
+/*favorieten in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(6) img{
+	width: 3em;
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 1;
+}
+
+/*winkelmandje in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(7) img{
+	width: 3em;
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 1;
+}
+
+/*span plaatsen in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(4) span{
+	width: 1em;
+	height: 1em;
+}
+
+/*zoekbalk icoon achter input met span plaatsen in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(4) span::before{
+	content: url(../images/zoekenicoon.jpeg);
+  transform: scale(0.12);
+	display: inline-block;
+	width: 0.5em;
+	height: 0em;
+}
+
+/*zoekbalk in navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(4) {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-content: center;
+  display: grid;
+  margin: 0;
+    margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-right: 0.5em;
+}
+
+/*eerste navigatie balk de eerste en derde tekst verdwijnen*/
+header nav ul:first-child li:nth-child(odd){
+	display: none;
+}
+
+/*p eerste navigatie stylen*/
+header nav ul:first-child p{
+	text-align: center;
+}
+
+/*eerste navigatie stylen*/
+header nav ul:first-child{
+  height: 2.5em;
 	margin: 0;
-	justify-content: space-around;
-	font-size: 0.8em;
-	font-family: 'Roboto', sans-serif;
+	display: block;
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	padding-left: 0em;
+	padding-top: 0.6em;
+	color: white;
+	background-color: #831100;
 }
 
-nav ul+ul{
-  background-color: white;
-	border-bottom: solid rgb(222, 221, 221) 0.08em;
+	/*dames link weg halen navigatiebalk 2*/
+	header nav ul:nth-child(2) li:first-child {
+		display: none;
+	}
+
+	header nav ul:nth-child(2) li:first-child img{
+		min-height: 3em;
+		max-width: 3em;
+	}
+	
+
+/****************/
+/*FOOTER section stylen*/
+/****************/
+
+/*eerste section p styling footer*/
+footer section:nth-child(1) p{
+	font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+
+/*eerste section h1 background color wite*/
+footer section:nth-child(1) section h1{
+	font-size: 1.6em;
+}
+
+/*eerste section button in de styling*/
+footer section:nth-child(1) section button{
+	background-color: #831100;
+	color: #ffffff;
+	width: 15em;
+	height: 3em;
+	font-size: 1em;
+}
+
+/*tweede section footer h3 stylen*/
+footer section:nth-child(2) h3{
+	font-size: 1em;
+	font-family: var(--font-h3);
+	color: #ffffff;
+}
+
+/*tweede section footer 1e rij*/
+footer > section:nth-child(2) > ul:first-child{
+	display: block;
+	min-height: 11em;
+	align-items: center;
+  justify-items: center;
+	border: 0.2em #831100 solid;
+}
+
+/*tweede section footer 2e rij*/
+footer section:nth-child(2) section{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+}
+
+/*tweede section footer 2e rij ul's*/
+footer section:nth-child(2) section ul{
+	width: 20em;
+	flex-direction: column;
 	justify-content: center;
-	padding: 2em;
+	align-items: center;
+	align-content: center;
+}
+
+/*tweede section footer p styling*/
+footer section:nth-child(2) p{
 	font-size: 0.8em;
 	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
 }
 
-nav ul+ul:nth-child(2){
-	width: 14em;
-	height: auto;
-	background-color: aqua;
+/*tweede section footer h2 styling*/
+footer section:nth-child(2) h2{
+	font-size: 1.5em;
+	font-family: var(--font-h3);
+	color: rgb(0, 0, 0);
 }
 
-nav ul+ul:nth-child(4){
-	width: 1em;
-	background-color: red;
+/*footer derde section grid stylen*/
+footer section:nth-child(3){
+	gap: 2em;
+	background-color: #3d3d3d;
+	grid-row-start: 3;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 0.1fr);
+  gap: 3em;
 }
 
-nav ul+ul:nth-child(5){
-	width: 1em;
+/*derde section footer eerste ul stylen*/
+footer section:nth-child(3) > ul:first-of-type{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    padding: 1em;
 }
 
-nav ul+ul:nth-child(6){
-	width: 1em;
+/*derde section footer eerste ul image betaling in de styling*/
+footer section:nth-child(3) > ul:first-of-type img{
+	width: 3.8em;
+  height: 3em;
 }
+
+/*footer derde section section stylen*/
+footer section:nth-child(3) section {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+/*footer derde section a wit kleuren*/
+footer > section:nth-child(3) a {
+  color: #ffffff;
+}
+
+/*derde section footer section 1e ul stylen*/
+footer section:nth-child(3) section > ul{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*derde section footer section 2e ul stylen*/
+footer section:nth-child(3) section ul:nth-child(2){
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: block;
+}
+
+/*derde section footer section 3e ul stylen*/
+footer section:nth-child(3) section ul:nth-child(3){
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*derde section footer section 4e ul stylen*/
+footer section:nth-child(3) section ul:nth-child(4){
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*derde section footer derde ul image socials in de styling*/
+footer section:nth-child(3) > ul:nth-child(3) img{
+	width: 2em;
+}
+
+/*footer tweede section section daarin ruimte tussen li's*/
+footer section:nth-child(2) section li{
+  margin: 0.3em;
+}
+
+/*footer derde section vierde ul stylen*/
+footer section:nth-child(3) > ul:nth-child(4) {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+	text-align: center;
+  color: #ffffff;
+}
+
+/*footer derde section derde ul stylen*/
+footer section:nth-child(3) > ul:nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*footer eerste section eerste section stylen*/
+footer section:nth-child(1) section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 20em;
+	margin: 0;
+	gap: 1.5em; 
+	margin-bottom: 5em;
+	padding: 0 1.5em;
+}
+
+/*eerste section image in de styling*/
+footer section:nth-child(1) section img {
+  width: 20em;
+}
+
+ /*footer stylen*/
+ footer{
+	gap: 3em;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 0.5fr);
+	margin-top: 6em;
+ }
+
+/*footer tweede section eerste ul meer ruimte tussen de li's*/
+footer > section:nth-child(2) > ul:first-child li{
+  padding: 1em;
+}
+
+/*footer eerste section grid stylen*/
+footer > section:nth-child(1){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/*footer tweede section grid stylen*/
+footer > section:nth-child(2){
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	gap: 3em;
+}
+
+/*footer derde section p stylen*/
+footer > section:nth-child(3) section ul a{
+	display: none;
+}
+
+/*footer eerste section p na h2 stylen*/
+footer section:nth-child(1) h2 ~ p {
+  width: 20em;
+}
+
+/****************/
+/* ALGEMEEN stijelen binnen scherm*/
+/****************/
 
 h1{
 	font-family: var(--font-title);
+	font-size: 3em;
 }
 
 h2{
 	font-family: var(--font-product-title);
+	font-size: 1.5em;
+}
+
+h3{
+	font-family: var(--font-h3);
 }
 
 a {
    text-decoration: none;
 	 color: var(--color-text);
-}
-
-a:focus{
-   background-color: khaki;
+	 text-decoration: underline;
 }
 
 a:hover{
-	text-decoration: underline;
+	color: blue;
 }
 
-header > ul{
-	align-items: center;
+li{
+	list-style-type: var(--list-style-none);
 }
 
+/*list itemns in unorderd list allemaal geen stijl geven*/
 ul li{
 	list-style-type: var(--list-style-none);
 }
 
-main:first-child ul{
-	display: flex;
+/*eerste unorderd list centreren*/
+header > ul{
 	align-items: center;
-	justify-content: center;
-	background-color: blueviolet;
 }
 
-main li{
+img{
+	max-width: 100%;
+}
+
+
+/****************/
+/* PAGINA 1 STYLING COSMETICA */
+/****************/
+
+/****************/
+/*BODY section stylen*/
+/****************/
+
+/****************/
+/*MAIN section body*/
+/****************/
+
+/*cosmeticapagina main stylen*/
+.cosmeticapagina main{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.2fr 0.35fr 5fr;
+}
+
+/*main direct child eerste section grid*/
+.cosmeticapagina main h1 + section:first-of-type{
+	display: grid;
+	grid-auto-flow: column;
+	overflow-x: auto;
+	grid-auto-columns: 8em;
+	overscroll-behavior-inline: contain;
+	gap: 1em;
+	height: 4em;
+	margin-left: 0.5em;
+}
+
+/*button's stylen in de main na h1*/
+.cosmeticapagina main h1 + section button{
+	background-color: #831100;
+	color: #ffffff;
+	padding: 1em;
+	font-size: 0.84em;
+	border-radius: 10em;
+	width: 10em;
+}
+
+/*cosmeticapagina main ul's section stylen*/
+.cosmeticapagina main > section + section ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+	gap: 0.5em;
+	justify-content: center;
+	align-content: center;
+	padding-left: 0.3em;
+}
+
+/*cosmeticapagina main ul li flex stylen*/
+.cosmeticapagina main > section + section ul li{
 	display: flex;
   flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	background-color: blueviolet;
+	gap: 1em;
 }
 
-main li img{
+.cosmeticapagina main > section + section {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/*button filter en sorteer in de main na h1*/
+.cosmeticapagina main h1 + section button:nth-child(5){
+	border-radius: 0em;
 	width: 20em;
 }
 
-main li button{
+/*afbeeldingen in main een width geven*/
+.cosmeticapagina main li img{
+	width: 12em;
+}
+
+/*buttons in de li een width geven*/
+.cosmeticapagina main li button{
 	width: 3em;
 }
 
+/*karosel navigatie in de main niet laten zien*/
+.cosmeticapagina main nav {
+  display: none;
+}
+
+/*h1 in main grid stylen*/
+.cosmeticapagina main h1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 1.8em;
+  align-self: center;
+}
+
+/*winkelmandje in website laten bewegen*/
+.cosmeticapagina main section:nth-child(2) ul li:nth-child(2) button{
+  animation-name: winkelmandje;
+}
+
+/*keyframe winkelmandje bewegen*/
+@keyframes winkelmandje{
+	0%{
+		scale: 0;
+	}
+	45%{
+		scale: 1;
+	}
+	100%{
+    scale: 0;
+	}
+}
+
+/*cosmeticapagina main p stylen*/
+.cosmeticapagina main p{
+	font-size: 0.8em;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*winkelmandje in website laten bewegen*/
+.cosmeticapagina main section:nth-child(2) ul li:nth-child(2) button:active + .cosmeticapagina header nav ul:nth-child(2) li:nth-child(6) img{
+	animation-name: winkelmandje;
+	animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+
 /****************/
-/* JOUW STYLING */
+/*FOOTER section stylen*/
 /****************/
-
-/* jouw code */
-
-@media (max-width: 320px){
-
-}
-
-@media (max-width: 481px){
-
-}
-
-@media (max-width: 769px){
-
-}
-
-@media (max-width: 1025px){
-
-}
-
-@media (max-width: 1201px){
-
-}
-
 
 /* https://testsigma.com/blog/css-breakpoints  Breakpoints media queries/*/
+
+/* deze kleur een root maken: rgb(255, 249, 241);*/
+
+/*waarom door deze code: grid-template-columns: repeat(4, 1fr);, word de derde section footer tweede ul 2e ul raar gevormd*/
+
+/****************/
+/* PAGINA 2 STYLING DETAIL */
+/****************/
+
+/****************/
+/*BODY section stylen*/
+/****************/
+
+/****************/
+/*HEADER section stylen*/
+/****************/
+
+.detailpagina header{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/****************/
+/*MAIN section stylen*/
+/****************/
+
+/*main grid geven*/
+.detailpagina main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 3fr 0.5fr 0.5fr;
+
+}
+
+/*main stylen*/
+.detailpagina h1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*item foto's en item uitleg stylen*/
+.detailpagina main > section:first-of-type{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: block;
+}
+
+/*item uitleg op juiste plek in grid zetten*/
+.detailpagina main section:first-of-type section:nth-child(2){
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 0.3fr 0.3fr 2fr;
+	gap: 2em;
+}
+
+/*item eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+/*item eerste informatie foto's iconen en tekst ernaast in flex*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type ul:first-of-type, .detailpagina main section:first-of-type section:nth-child(2) section:first-of-type ul:nth-child(2){
+	display: flex;
+	flex-direction: column;
+}
+
+/*item eerste informatie foto's iconen tekst ernaast stylen*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type ul:nth-child(2){
+	gap: 1em;
+}
+
+/*item eerste informatie foto's iconen grote*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type ul:first-of-type img{
+	max-width: 1.7em;
+}
+
+/*item eerste informatie foto's iconen en p stylen*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+/*h1 dior eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type h2{
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*omschrijving product eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type h2 + p{
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+/*kleur product eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type h2 + p + p{
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+/*beschikbaarheid eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type p:nth-of-type(4){
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+
+/*button eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type button{
+	grid-row-start: 6;
+	grid-row-end: 7;
+	width: 40em;
+	height: 5em;
+	color: white;
+	background-color: #831100
+}
+
+/*info section eerste informatie*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-of-type button + section{
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+/*item gebruik samen met stylen*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+/*item gebruik samen met foto's stylen*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section img{
+	width: 13em;
+	height: 18em;
+}
+
+/*Bekijk meer met buttons section juist in grid plaatsen*/
+.detailpagina main section:nth-child(3){
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	align-self: center;
+	justify-self: center;
+}
+
+/*Bekijk meer buttons*/
+.detailpagina main section:nth-child(3) button{
+	width: 8em;
+	height: 4em;
+	border-radius: 8em;
+	border-color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+	box-shadow: none;
+}
+
+/*de eerste p eerste section*/
+.detailpagina main section:first-of-type section:nth-child(2) > h3{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*tweede p eerste section*/
+.detailpagina main section:first-of-type section:nth-child(2) > h3 + h3{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+/*recent bekeken section stylen*/
+.detailpagina main > section:nth-child(4){
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	justify-self: center;
+	align-self: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.3fr 1fr;
+}
+
+.detailpagina main > section:nth-child(4) h2{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/*recent bekeken foto's stylen*/
+.detailpagina main > section:nth-child(4) img:first-of-type{
+	width: 20em;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*recent bekeken foto's stylen*/
+.detailpagina main > section:nth-child(4) img:first-of-type ~ img{
+	width: 20em;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+/*li's binnen gebruik samen met flex maken*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li{
+	display: flex;
+	flex-direction: column;
+}
+
+/*ul binnen gebruik samen met 0 padding geven*/
+.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li ul{
+  padding: 0;
+}
+
+
+/****************/
+/*ACCESABILITY STYLEN*/
+/****************/
+
+/*link om hoofd navigatie te skippen niet zichtbaar te maken voor mensen die geen key-board gebruiken*/
+.header-navigatie{
+ left: -62.4375em;
+ position: absolute;
+ z-index: -999;
+}
+
+/*link om hoofd navigatie te skippen wel zichtbaar te maken voor key-board gebruikers*/
+.header-navigatie:focus{
+	left: auto;
+	top: auto;
+	z-index: 999;
+}
+
+/*link om main navigatie te skippen niet zichtbaar te maken voor mensen die geen key-board gebruiken*/
+.main-navigatie{
+	left: -62.4375em;
+	position: absolute;
+	z-index: -999;
+}
+
+/*link om main navigatie te skippen wel zichtbaar te maken voor key-board gebruikers*/
+.main-navigatie:focus{
+	left: auto;
+	top: auto;
+	z-index: 999;
+}
+
+/*links zwart kleuren wanneer er focus is op een link*/
+a:focus{
+	color: #000000;
+}
+
+/*overal waar focus op ligt krijgt een rode omranding*/
+:focus{
+  outline: 0.4em #831100 solid;
+}
+
+/****************/
+/*VERSCHILLENDE SCHERMEN stylen*/
+/****************/
+
+
+@media screen and (min-width: 36em) {
+
+
+	/*main grid stylen*/
+	.detailpagina main > section:first-of-type {
+    display: grid;
+		grid-template-columns: 1.5fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 2em;
+	}
+
+	/*main de foto's product juist in grid stylen*/
+  .detailpagina main section:first-of-type section:first-of-type {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 1;
+	}
+
+	/*main de informatie product juist in grid stylen*/
+  .detailpagina main section:first-of-type section:nth-child(2) {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+}
+
+
+@media screen and (min-width: 48em) {
+
+	/*footer derde section section stylen*/
+	footer section:nth-child(3) section {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
+	}
+
+	/*footer derde section p stylen*/
+  footer > section:nth-child(3) section ul p{
+	display: block;
+  }
+
+	/*gebruik samen met gedeelte stylen grid van maken*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section > ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		column-gap: 1em;
+		row-gap: 0.3em;
+		justify-items: center;
+		justify-self: center;
+		padding-left: 0.2em;
+	}
+
+	/*gebruik samen met foto's grote schalen*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section img {
+		width: 10em;
+		height: 12.6em;
+	}
+
+	/*eerste foto gebruik samen met in grid stylen*/
+  .detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li:first-of-type{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	/*tweede foto gebruik samen met in grid stylen*/
+  .detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li:nth-child(2){
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	/*derde foto gebruik samen met in grid stylen*/
+  .detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li:nth-child(3){
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	/*p in ul gebruik samen met max-width geven*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li:nth-child(3) p{
+		max-width: 10em;
+	}
+
+	/*vierde foto gebruik samen met in grid stylen*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section li:nth-child(4){
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 62em){
+	
+
+	/*HEADER STYLEN*/
+
+	header nav ul + ul {
+		justify-content: center;
+		padding: 2em;
+		font-size: 0.8em;
+		font-family: 'Roboto', sans-serif;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: 1fr;
+		place-content: center;
+		padding-left: 10em;
+		border-bottom: 0.2em #c4c0c0 solid;
+	}
+
+	/*zoekbalk navigatiebalk 2 op row 1*/
+	header nav ul:nth-child(2) li:nth-child(4) {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	 /* voor de 1e navigatie balk bovenaan */
+header nav ul:first-child{
+	margin: 0;
+	font-size: 0.8em;
+	font-family: 'Roboto', sans-serif;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	place-content: center;
+	padding-left: 10em;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/*eerste navigatie balk de eerste en derde tekst verdwijnen*/
+header nav ul:first-child li:nth-child(odd){
+	display: block;
+}
+
+header nav ul:nth-child(2) li:first-child img {
+	visibility: hidden;
+}
+
+header nav ul:nth-child(2) li:first-child img::before {
+	visibility: visible;
+	content: "dames";
+	display: block;
+}
+
+/*hamburger menu niet meer laten zien op navigatiebalk 2*/
+header nav ul:nth-child(2) li:nth-child(2) {
+  display: none;
+}
+
+/*dames link tevoorschijn halen navigatiebalk 2*/
+header nav ul:nth-child(2) li:first-child {
+  display: block;
+	grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*bijenkorf logo plaatsen in grid navigatiebalk 2*/
+header nav ul + ul li:nth-child(3) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/*account icoon plaatsen in grid navigatiebalk 2*/
+header nav ul + ul li:nth-child(5) {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+/*favorieten icoon plaatsen in grid navigatiebalk 2*/
+header nav ul + ul li:nth-child(6) {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+/*winkelmandje icoon plaatsen in grid navigatiebalk 2*/
+header nav ul + ul li:nth-child(7) {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+
+/*FOOTER STYLEN*/
+
+/*footer styling*/
+footer{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 0.5fr);
+	margin-top: 5em;
+	gap: 10em;
+}
+
+/*footer eerste section rechts van scherm styling*/
+footer section:nth-child(1) section{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 100%;
+}
+
+/*footer eerste section foto groter styling*/
+footer section:nth-child(1) section img {
+	width: 60em;
+}
+
+/*footer eerste section display flex styling*/
+footer section:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 5em;
+}
+
+/*footer tweede section first child display grid styling*/
+footer > section:nth-child(2) > ul:first-child {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+  align-items: center;
+  justify-items: center;
+  min-height: 4em;
+}
+
+/*footer derde section grid drie rows maken*/
+footer section:nth-child(3) {
+  grid-template-rows: repeat(3, 0.1fr);
+}
+
+/*eerste section button in de styling*/
+footer section:nth-child(1) section button{
+	width: 37em;
+	height: 3em;
+	font-size: 1em;
+}
+
+/*COSMETICAPAGINA MAIN STYLEN*/
+
+/*buttons filteren weg halen*/
+.cosmeticapagina main h1 + section:first-of-type {
+  display: none;
+}
+
+/*h1 in tweede column plaatsen*/
+.cosmeticapagina main h1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-items: center;
+  display: flex;
+  align-content: center;
+}
+
+/*filter navigatie main ul derde li ul niet laten zien*/
+.cosmeticapagina main nav ul li:nth-child(3) ul, .cosmeticapagina main nav ul li:nth-child(4) ul, .cosmeticapagina main nav ul li:nth-child(5) ul, .cosmeticapagina main nav ul li:nth-child(6) ul, .cosmeticapagina main nav ul li:nth-child(7) ul, .cosmeticapagina main nav ul li:nth-child(8), .cosmeticapagina main nav ul li:nth-child(9) ul, .cosmeticapagina main nav ul li:nth-child(10) ul, .cosmeticapagina main nav ul li:nth-child(11) ul{
+	display: none;
+}
+
+/*filter navigatie main ul derde li ul zichtbaar maken na checked*/
+.cosmeticapagina main nav ul li:nth-child(3) form input[type="checkbox"]:checked label + ul, li:nth-child(4) form label input[type="checkbox"]:checked ~ ul, li:nth-child(5) form label input[type="checkbox"]:checked ~ ul, li:nth-child(6) form label input[type="checkbox"]:checked ~ ul, li:nth-child(7) form label input[type="checkbox"]:checked ~ ul, li:nth-child(8) form label input[type="checkbox"]:checked ~ ul, li:nth-child(9) form label input[type="checkbox"]:checked ~ ul, li:nth-child(10) form label input[type="checkbox"]:checked ~ ul, li:nth-child(11) form label input[type="checkbox"]:checked ~ ul{
+	display: block;
+}
+
+.cosmeticapagina main nav ul li:nth-child(3) form label input[type="checkbox"]:checked ~ ul{
+	display: block;
+}
+
+/*grid op karosel, navigatie, in main en background color en color*/
+	.cosmeticapagina main nav{
+		display: block;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		color: #000000;
+		padding: 1em;
+	}
+
+	/*filter navigatie een beetje ruimte tussen li's*/
+	.cosmeticapagina main nav ul li{
+		padding-bottom: 0.7em;
+	}
+
+	/*filter navigatie h2 positioneren*/
+	.cosmeticapagina main nav ul li h2{
+		position: relative;
+	}
+
+	/*main stylen*/
+	.cosmeticapagina main{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		display: grid;
+		grid-template-columns: 0.7fr 2fr;
+		grid-template-rows: 1fr 5fr;
+		gap: 0 10em;
+	}
+
+	/*grid op de itemns in main*/
+	.cosmeticapagina main > section + section {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	/*de tweede directe section in de main grid start en end geven*/
+  .cosmeticapagina main > section + section ul{
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+		gap: 2em;
+	 }
+
+	 /*karosel h2 pijltje toevoegen*/
+.cosmeticapagina main nav ul li span:after{
+  content: "";
+	position: relative;
+	right: 0;
+  background-image: url(../images/pijltjenaarbeneden.png);
+	width: 2em;
+	height: 1em;
+	background-size: 1em;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+/*karosel de h2 buttons stylen*/
+.cosmeticapagina main nav ul label{
+	display: block;
+}
+
+/*karosel checkbox weg stylen*/
+.cosmeticapagina main nav ul li form label input[type = "checkbox"]{
+	clip-path: inset(10em 10em 10em -0.05em);
+}
+
+/*karosel checkbox weg stylen*/
+.cosmeticapagina main nav ul li form label ul input[type = "checkbox"]{
+	clip-path: none;
+}
+
+
+/*DETAILPAGINA MAIN STYLEN*/
+
+/*main grid geven*/
+.detailpagina main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 3fr 0.5fr 0.5fr;
+}
+
+/*item foto's ul stylen*/
+.detailpagina main section:first-of-type section:nth-child(1) > ul{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+	gap:0.3em;
+	justify-items: center;
+}
+
+.detailpagina main > section:first-of-type {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+}
+
+/*item foto's groot stylen*/
+.detailpagina main h1 + section > section img {
+  width: 27.7em;
+}
+
+/*footer eerste section p na h2 stylen*/
+footer section:nth-child(1) h2 ~ p {
+  width: 75em;
+}
+
+/*footer derde section section ul a te voorschijn halen*/
+footer > section:nth-child(3) section ul a {
+  display: block;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 75em){
+
+	/*derde section footer derde ul stylen*/
+	footer section:nth-child(3) > ul:nth-child(3) {
+		grid-column-start: 1;
+		grid-column-end: 1;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+	}
+	
+	/*derde section footer vierde ul stylen*/
+	footer section:nth-child(3) > ul:nth-child(4) {
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 1em;
+	}
+
+	/*gebruik samen met foto's grote schalen*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section img {
+		width: 11em;
+		height: 16em;
+	}
+	
+
+	}
+
+
+/*DARK MODE*/
+@media (prefers-color-scheme: dark){
+
+	/*background color voor body donker zwart*/
+  body{
+		background-color: #222222;
+	}
+
+	/*Overal tekst wit kleuren*/
+	.cosmeticapagina main p, h1, h2, h3{
+    color: #f4f2f2;
+	}
+  .cosmeticapagina footer p, h2, h3{
+	color: #f4f2f2;
+  }
+
+	/*tweede section footer 1e rij*/
+	footer > section:nth-child(2) > ul:first-child {
+		display: block;
+		min-height: 11em;
+		background-color: #000000;
+		align-items: center;
+		justify-items: center;
+	}
+
+}
+
+@media screen and (min-width:90em){
+
+	/*foto's van lip product groter stylen*/
+	.detailpagina main h1 + section > section img {
+    width: 40em;
+  }
+
+	/*foto's van gebruik samen met groter stylen*/
+	.detailpagina main section:first-of-type section:nth-child(2) section:first-child ~ section img {
+    width: 14em;
+    height: 19.5em;
+  }
+}
