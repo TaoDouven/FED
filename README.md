@@ -161,18 +161,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | hoe ik mijn    | Ik ook hoe ik mijn | Hoe ik de    | feedback         |
+  | navigatie goed | navigatie kan      | afbeeldingen |                  |
+  | kan stylen     | stylen             | plaatsen     |                  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Geef foto's/elementen een achtergrond kleur want dan kan je goed zien hoe dingen staan geplaatst. 
-  - punt 2
-  - nog een punt
-  - ...
+  - Je kan grid goed gebruiken als je elementen wilt positioneren. 
+  - Je kan je pagina opdelen met behulp van een grid en binnen die grid elementen weer grid van maken of bv ul's plaatsen.
 
 </details>
 
@@ -202,18 +201,17 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe ik een     | feedback           | feedback     | feedback         |
+  | element goed   |                    |              |                  |
+  | kan plaatsen   |                    |              |                  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Zorg dat je nu al ook gaat kijken naar accesability
+  - 
+  - 
 
 </details>
 
@@ -288,18 +286,15 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | feedback       | feedback           | feedback     |  feedback        |
+  |                |                    |              |                  |
+  |                |                    |              |                  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - 
 
 </details>
 
