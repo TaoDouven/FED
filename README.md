@@ -130,7 +130,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - Geef foto's/elementen een achtergrond kleur want dan kan je goed zien hoe dingen staan geplaatst. 
   - punt 2
   - nog een punt
   - ...
