@@ -58,7 +58,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  - 
+  Content:
+  - Bij het valideren van de html code zaten er veel fouten in de code.
+
+  Keyboard:
+  - bij het kopje keyboard had ik alles no, omdat ik nog niet met keyboard accesability bezig ben geweest.
+
+  Mobile touch:
+  - Nog niet rekening gehouden met horizontal scrolling.
+  - Buttons zijn nog niet goed gesized.
+  - Plaatsing van links is nog niet goed.
+
+  Heading:
+  - Was alles goed.
+
+  List:
+  - Was alles goed.
+
+  Images:
+  - Geen rekening gehouden met attribute values.
+
+  Media:
+  - Bij mij niet van toepassing, omdat mijn website geen media bevat.
+
+  Controlls:
+  - Links zijn nog niet reconisable als links.
+  - Controls hebben geen :focused state.
+  - Ik heb nog geen skip links.
+
+  Appearance:
+  - Ik heb geen light/dark mode.
+  - High contrast mode is niet gesuport.
+  - Text kan je niet tot 200% doen.
+
+  Animation:
+  - Nog niet van toepassing.
+
+  Color contrast:
+  - Bij sommige foto's is er sprake van text overlapping. 
 
 </details>
 
