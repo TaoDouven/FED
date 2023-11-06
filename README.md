@@ -229,6 +229,45 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  Content:
+  - Er zitten geen fouten meer in de html code dus het valideren ging goed en voor alles bij content had ik een yes.
+
+  Keyboard:
+  - Ik ben mij nogsteeds niet bezig gaan houden met keyboaard accesability dus bij het kopje keyboard heb ik niet zoals bij test 1 alles no.
+
+  Mobile touch:
+  - Ook nu heb ik nog niet rekening gehouden met horizontal scrolling.
+  - Buttons zijn nu tijdens test 2 wel goed gesized dus hier is deze wel yes op geantwoord.
+  - Plaatsing van links is nogsteeds nog niet goed.
+
+  Heading:
+  - Was alles goed.
+
+  List:
+  - Was alles goed.
+
+  Images:
+  - Ik heb nu wel rekening gehouden met attribute values voor de images dus hier is yes op geantwoord. 
+
+  Media:
+  - Bij mij niet van toepassing, omdat mijn website geen media bevat.
+
+  Controlls:
+  - Nu zijn Links zijn nogsteeds niet reconisable als links.
+  - Nu hebben controls ook geen :focused state.
+  - Ik heb nogsteeds geen skip links.
+
+  Appearance:
+  - Bij test 2 heb ik ook nog geen light/dark mode.
+  - High contrast mode is nu ook nog niet gesuport.
+  - Text kan je weer niet tot 200% doen.
+
+  Animation:
+  - Nog niet van toepassing.
+
+  Color contrast:
+  - Er is nu nogsteeds sprake van dat sommige foto's is er sprake van text overlapping. 
+
 </details>
 
 
