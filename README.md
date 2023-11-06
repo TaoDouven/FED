@@ -344,5 +344,6 @@ Voor het karosel, navigatie, bij de main in cosmeticapagina zijn bij de "buttons
   6. https://dev.to/erhannah/adding-pseudoelements-on-input-elements-5bdk
   7. https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
   8. https://www.youtube.com/watch?v=3yfswsnD2sw.
+  9. https://www.youtube.com/watch?v=VQraviuwbzU.
 
 </details>
