@@ -305,8 +305,20 @@ Content:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. https://dlo.mijnhva.nl/d2l/le/content/437009/viewContent/1483500/View
+  2. https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/#:~:text=Block%20elements%20include%20any%20element,%3E%20%2C%20and%20so%20many%20more.
+  3.  https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/
+  4.  https://www.google.com/search?q=media+queries+not+working&client=safari&sca_esv=576523393&rls=en&biw=1470&bih=840&tbm=vid&ei=wjM5ZbHdMpvr7_UP3-2WgAk&oq=media+queries+not+wor&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIhVtZWRpYSBxdWVyaWVzIG5vdCB3b3IqAggAMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSMcQUABYsglwAHgAkAEAmAFMoAGbBKoBATi4AQHIAQD4AQGIBgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:a28c8451,vid:acqN6atXVAE,st:0.
+  5.  https://www.geeksforgeeks.org/how-to-use-before-or-after-pseudo-element-to-an-input-field-in-css/#:~:text=Note%3A%20We%20cannot%20use%20%3A%3A,style%20to%20each%20of%20them.
+  6.  https://dev.to/erhannah/adding-pseudoelements-on-input-elements-5bdk
+  7.  https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
+  8.  https://www.youtube.com/watch?v=3yfswsnD2sw.
+  9.  https://www.youtube.com/watch?v=VQraviuwbzU.
+  10.  https://accessibleweb.com/color-contrast-checker/.
+  11.  https://www.youtube.com/watch?v=_yCgeXFAXTM.
+  12.  https://www.youtube.com/watch?v=8QKOaTYvYUA&t=2028s
+  13.  https://stackoverflow.com/questions/65330346/is-there-a-css-selector-i-can-use-to-show-an-element-once-a-checkbox-is-selected.
+  14.  https://css-tricks.com/almanac/properties/c/clip-path/.
+  15. https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector.
+  16.  https://webdesign.tutsplus.com/keyboard-accessibility-tips-using-html-and-css--cms-31966a. https://www.youtube.com/watch?v=38JDscMbB4I. 
 </details>
