@@ -277,7 +277,12 @@ Content:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot1.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot2.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot3.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot4.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot5.jpeg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screenshot6.jpeg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
