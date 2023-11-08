@@ -58,6 +58,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  <img src="images/WCAGcheck1.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck2.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck3.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck4.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/WCAGcheck5.jpeg" width="375px" alt="omschrijving van de pagina">
+
   Content:
   - Er zitten veel fouten in mijn html code.
 
