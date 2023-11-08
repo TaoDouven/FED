@@ -228,11 +228,11 @@ height op footer main header weg halen, kijken wat het probleem is.
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-   <img src="images/mijnwcag1.jpeg" width="375px" alt="omschrijving van de pagina">
-  <img src="images/mijnwcag2.jpeg" width="375px" alt="omschrijving van de pagina">
-  <img src="images/mijnwcag3.jpeg" width="375px" alt="omschrijving van de pagina">
-  <img src="images/mijnwcag4.jpeg" width="375px" alt="omschrijving van de pagina">
-  <img src="images/mijnwcag5.jpeg" width="375px" alt="omschrijving van de pagina">
+   <img src="images/wcagmijn1.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/wcagmijn2.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/wcagmijn3.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/wcagmijn4.jpeg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/wcagmijn5.jpeg" width="375px" alt="omschrijving van de pagina">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
